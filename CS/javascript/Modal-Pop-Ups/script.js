@@ -1,28 +1,30 @@
 //Get modal element
 const modal = document.getElementById("myModal");
+
 //Get buttons
-const openModaBtn = ducumnet.getElementById("openModaBtn");
-const closeModaBtn = ducumnet.getElementById("openModaBtn");
-const alertBtn = ducumnet.getElementById("alertBtn");
+const openModalBtn = document.getElementById("openModalBtn");
+const closeModalBtn = document.getElementById("closeModalBtn");
+const alertBtn = document.getElementById("alertBtn");
 
 
 //Open modal on button click
-openModalBtn.onclick = funtion() {
+openModalBtn.onclick = function() {
     modal.style.display = "block";
 }
 
 //Open modal on button click
-openModalBtn.onclick = funtion() {
+closeModalBtn.onclick = function() {
     modal.style.display = "none";
 }
 
 //Open modal on button click
-openModalBtn.onclick = funtion() {
-    if (event.target ==modal) {
-    modal.style.display = "none";
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
 }
 
 //Open modal on button click
-openModalBtn.onclick = funtion() {
+alertBtn.onclick = function() {
     alert("This is a simple pop-ip alert! 2k is a way better game now. GO 2k!")
 }
