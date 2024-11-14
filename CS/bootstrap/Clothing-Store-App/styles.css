@@ -1,0 +1,8 @@
+/* Genius can add custom styles here if needed */
+
+.jumbotron {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYa3N6-uGvbu5YM4ks-qy8EB8dvZPPe7Wxwg&s');
+    background-size: cover;
+    color: white;
+}
+
